@@ -5,5 +5,16 @@
     border-radius: 10px;
     transform: scale(.8);
     padding: 65px;
+    z-index: 99;
 
+}
+
+@media (max-width:999px) {
+    .card_wrapper{
+        background-color: #FFFFFF;
+        width: 100%;
+        padding: 20px;
+
+    }
+    
 }

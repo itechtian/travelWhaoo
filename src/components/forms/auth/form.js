@@ -6,7 +6,7 @@ export default function Form({title, subtitle, footertext, children}) {
     return(
         <div className="form_wrapper">
             {/* form header */}
-            <div style={{'width':'60%'}}>
+            <div className="form_wrapper_head">
                 <h3 style={{'color':'#161616', 'fontSize':'24px','marginBottom':'8px'}}>{title}</h3>
                 <span style={{'color':'#555555', 'fontSize':'14px'}}>{subtitle} </span>
             </div>
@@ -26,6 +26,17 @@ export default function Form({title, subtitle, footertext, children}) {
                     display:flex;
                     flex-direction:column;
                     gap:31px;
+                }
+                .form_wrapper_head{
+                    width:60%;
+                }
+                @media (max-width:999px) {
+                    .form_wrapper_head{
+                        background-color: #FFFFFF;
+                        width: 100%;
+                
+                    }
+                    
                 }
              `}</style>
 
