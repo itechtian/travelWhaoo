@@ -2,6 +2,7 @@
   "name": "travelwhoo",
   "version": "0.1.0",
   "private": true,
+  "developer": "ndubuisi",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
