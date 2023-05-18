@@ -1,0 +1,59 @@
+.form{
+    width: 315px;
+    margin:22px auto;
+  }
+  .otp-div{
+    display: flex;
+    margin:30px auto;
+    justify-content: center;
+    gap: 28px;
+  }
+  
+  .link-orange{
+    color: #FF4400;
+    cursor: pointer;
+  }
+  
+  .success{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #39B67B;
+  
+  }
+  
+  .otp{
+    /* width: 100%; */
+    outline: none;
+    border-bottom:solid;
+    margin:auto 5px;
+    padding-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #555555;
+    border-radius: 8px;
+    font-size: 25px;
+  }
+  
+  .otp:focus{
+    outline: none;
+    border-bottom:1px solid #555555;
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+
+
+
